@@ -32,8 +32,8 @@ public class Buoi2 {
         System.out.println("----------------");
         System.out.println("Tên hàng vừa nhập là: " + nameProduct);
         System.out.println("Ngày tháng năm sinh vừa nhập là: " + localDate);
-        System.out.println("Thời gian nhập hàng là: " + timeString);
-        System.out.println("Thời gian vừa nhập là: " + timeNow);
+        System.out.println("Thời gian nhập hàng là: " + localDateTime);
+        System.out.println("Thời gian vừa nhập là: " + localTime);
 
 
     }
