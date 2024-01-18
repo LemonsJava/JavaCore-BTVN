@@ -8,7 +8,7 @@ public class Buoi2 {
     public static void main(String[] args) {
 
 
-        // Bài 1
+        // Bài 2
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Mời bạn nhập tên hàng nhập kho: ");
@@ -28,13 +28,15 @@ public class Buoi2 {
         LocalTime localTime = LocalTime.parse(timeNow, DateTimeFormatter.ofPattern("HH:mm:ss"));
 
 
-
         System.out.println("----------------");
         System.out.println("Tên hàng vừa nhập là: " + nameProduct);
         System.out.println("Ngày tháng năm sinh vừa nhập là: " + localDate);
         System.out.println("Thời gian nhập hàng là: " + localDateTime);
         System.out.println("Thời gian vừa nhập là: " + localTime);
-
+        System.out.println("----------------");
+        LocalDateTime localDateTimeNow = LocalDateTime.now();
+        System.out.println("Thời gian hiện tại là: " + localDateTimeNow);
+        System.out.println("Thời gian của 3 ngày sau là:" + localDateTimeNow.plusDays(3));
 
     }
 }
